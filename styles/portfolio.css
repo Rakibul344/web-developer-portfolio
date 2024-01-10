@@ -2,8 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-main section{
-
+main section {
   margin-top: 130px;
 }
 
@@ -149,8 +148,61 @@ main {
 
 /* resume section  */
 
-.resume-container{
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
 
-display: flex;
+.download-cv {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* footer sectio  */
+
+footer {
+  display: flex;
+  gap: 50px;
+  background: #fff8f3;
+  padding: 130px 150px;
+  margin-top: 100px;
+}
+
+.footer-section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+}
+
+.section-description {
+  color: #474747;
+
+  font-size: 16px;
+}
+
+.footer-column{
+width: 50%;
+
+}
+
+
+.contact input[type="text"], .contact input[type="email"] , textarea {
+
+
+display: block;
+margin-top: 20px;
+padding: 18px 30px;
+
+border-radius: 5px;
+background: #FFF;
+border: 0px;
+width: 100%;
+
+}
+
+.social-links a{
+
+  margin-right: 20px;
+
 
 }
